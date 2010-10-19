@@ -1,0 +1,19 @@
+Computer Vision and AI Projects
+
+This is a collection of Computer Vision and Artificial Intelligence projects that I have completed over the years. Feel free to use and learn from them at your own risk. If you do end up finding any of these useful, I'd love to hear about it. Likewise, if you have any questions about implementation or suggestions  feel free to email me at keemon@bc.edu
+
+All of the projects listed are coded in MATLAB.
+
+List of projects:
+	Background-Subtraction
+		-Static background subtraction using a Gaussian model
+	Image-Manipulation
+		-Collections of computational photography functions
+	MNIST-Digit-Recognition
+		-Optical character recognition using principal component analysis (eigenfaces)
+	HMM-Functions
+		-Algorithms for running analysis on hidden Markov models
+		
+
+TJ Keemon <keemon@bc.edu>
+Last Updated: 10/18/2010

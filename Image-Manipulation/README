@@ -1,0 +1,13 @@
+Image Manipulation
+
+Files for filtering and bluring images. At the moment, there is only one function here.
+
+List of files:
+	anistropic_diffuse.m
+	testAnistropicDiffuse.m
+	  
+To run:
+   In the MATLAB console, type
+   > testAnistropicDiffuse
+
+TJ Keemon <keemon@bc.edu>

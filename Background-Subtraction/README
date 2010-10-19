@@ -1,0 +1,19 @@
+Background-Subtraction
+	
+A quick set of MATLAB functions written to do static background subtraction.
+Takes a stream of images from a non-moving camera and builds a Gaussian model of the background. The test script draws a bounding box around objects not part of the background.
+
+List of files:
+	bgSubtract.m 
+	detectChange.m
+	determineBackground.m
+	runTestBGRemoval.m
+	takePicture.m
+
+To run: 
+	In the MATLAB console, type
+	> runTestBGRemoval
+
+This project requires an OpenCV wrapper to link MATLAB with a webcam.
+
+TJ Keemon <keemon@bc.edu>

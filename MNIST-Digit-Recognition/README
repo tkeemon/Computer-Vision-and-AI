@@ -1,0 +1,21 @@
+MNIST Digit Recognition
+
+A MATLAB implementation of PCA (eigenfaces) for the classification of handwritten digits.
+
+This project requires the following files in order to run:
+     t10k-images-idx3-ubyte
+     t10k-labels-idx1-ubyte
+These can be downloaded from the MNIST handwritten digit database at: 
+      http://yann.lecun.com/exdb/mnist
+
+List of files:
+	classifyDigits.m
+	readmnist.m
+	testmnist.m
+	trainPCA.m
+	  
+To run:
+   In the MATLAB console, type
+   > testmnist
+
+TJ Keemon <keemon@bc.edu>

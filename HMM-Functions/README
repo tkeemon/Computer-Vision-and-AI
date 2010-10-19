@@ -1,0 +1,18 @@
+HMM Functions
+
+A collection of functions associated with the analysis of hidden Markov models. The script file testHmm.m gives examples of how the supplied functions are used.
+
+List of files:
+	backward..m
+	filtering.m
+	forward.m
+	predict.m
+	smoothing.m
+	testHmm.m
+	viterbi.m
+	  
+To run:
+   In the MATLAB console, type
+   > testHmm
+
+TJ Keemon <keemon@bc.edu>
