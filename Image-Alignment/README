@@ -1,0 +1,28 @@
+Image Alignment
+
+Aligns three color channels of images from the Prokudin-Gorskii photo collection to create a single, color image. This was implemented in two ways. 
+    The first is a brute force algorithm, which exhaustively searches over all possible channel displacements over a 20 pixel range in every direction.
+    The second is an image pyramid implementation which reduces alignment time significantly over the brute-forced method.
+This project requires images from the Prokudin-Gorskii photo collection. 
+    These files can be found here: http://www.loc.gov/rr/print/
+
+List of files:
+    alignlevel.m
+    getoffset.m
+    pyramidalign.m
+    bruteforce.m
+    getoffset2.m
+    ssd.m
+
+To run:   
+    In the MATLAB console, type
+    > [J] = bruteforce(I)
+    For the brute force algorithm
+
+    Or
+    > [J] = pyramidalign(I)
+    For the image pyramid algorithm
+   
+    Where 'I' is an image from the Prokudin-Gorskii photo collection
+
+TJ Keemon <keemon@bc.edu>
