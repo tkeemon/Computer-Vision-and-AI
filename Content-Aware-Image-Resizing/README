@@ -1,0 +1,29 @@
+Content Aware Image Resizing
+
+Resizes a given image either horizontally or vertically. Can also be used to amplify the main object of the image as well by first removing seams, then adding them back in order to keep the size of the image consistent.
+
+List of files:
+	amplification.m 
+    map.m
+    removepath.m
+    findpath.m
+    myexpand.m
+    shrink.m
+    main.m
+    removalmap.m
+
+To run:
+    In the MATLAB console, type
+    > [J] = main(I,process, percentChange, orientation)
+    Where:
+        I is an rgb image
+        process is the process you want to run
+	       'amplification'- amplify image content
+           'expand' - expand image using seams
+           'shrink' - shrink image using seams
+       percentChange is the percent out of 100 to change in the image
+       orientation- which seams to add (not needed for amplification)
+           'vertical' - add/remove vertical seams
+           'horizontal' - add/remove horizontal seams
+
+TJ Keemon <keemon@bc.edu>
