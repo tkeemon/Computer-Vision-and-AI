@@ -13,7 +13,19 @@ List of projects:
 		-Optical character recognition using principal component analysis (eigenfaces)
 	HMM-Functions
 		-Algorithms for running analysis on hidden Markov models
-		
+	Image-Manipulation
+		-At this point, only has one method: anistropic_diffuse
+	Image-Alignment
+		-Alignment of color channels for the Prokudin-Gorskii photo collection
+			Includes a brute force algorithm as well as a pyramid alignment algorithm
+	Content-Aware-Image-Resizing
+		-Functions for intelligently resizing images 
+			Based on: S Avidan, A Shamir. Seam carving for content-aware image resizing
+			url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.117.7257&rep=rep1&type=pdf
+	Panoramic-Image-Stitching
+		-Functions for both manually and automatically combining overlapping images into a single panoramic mosaic
+			Based on: M Brown, R Szeliski, S Winder. Multi-Image Matching using Multi-Scale Oriented Patches
+			url: http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1467310
 
 TJ Keemon <keemon@bc.edu>
-Last Updated: 10/18/2010
+Last Updated: 10/29/2010

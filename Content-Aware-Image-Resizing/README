@@ -3,7 +3,7 @@ Content Aware Image Resizing
 Resizes a given image either horizontally or vertically. Can also be used to amplify the main object of the image as well by first removing seams, then adding them back in order to keep the size of the image consistent.
 
 List of files:
-	amplification.m 
+    amplification.m 
     map.m
     removepath.m
     findpath.m
