@@ -1,0 +1,41 @@
+Panoramic Image Stitching
+
+Combines multiple overlapping images into a single panoramic image mosaic.
+
+List of files:
+    applyHomography.m
+    autoMosaic.m
+    computeHomography.m
+    cornerDetector.m
+    generateHomography.m
+    getDescriptors.m
+    matchFeatures.m
+    mosaic.m
+    ransac.m
+
+Files still needed:
+    dist2.m - Calculates squared distance between two sets of points
+        This can be found: http://www.vision.caltech.edu/html-files/EE148-2002/dist2.m
+    imgrad.m - compute smoothed x,y image derivatives
+    smm.m - spatially averaged second moment matrix
+
+    These files will be added at a later time
+
+To run:
+    In the MATLAB console, type
+    > [J] = mosaic(images,basePts,inputPts)
+    To manually stitch the provided images
+        (use cpselect.m and cpcorr.m for help selecting corresponding points between two images)
+
+    Or
+    > [J] = autoMosaic(images)
+    To automatically stitch the provided images
+
+    Where:
+        images is a cell array of images to be mosaiced
+        basePts is a cell array of coordinates for given image
+        inputPts is a cell array of coordinates for matching points in next image
+    
+    
+    
+TJ Keemon <keemon@bc.edu>
