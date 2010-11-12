@@ -7,14 +7,12 @@ All of the projects listed are coded in MATLAB.
 List of projects:
 	Background-Subtraction
 		-Static background subtraction using a Gaussian model
-	Image-Manipulation
+	Image-Filtering
 		-Collections of computational photography functions
 	MNIST-Digit-Recognition
 		-Optical character recognition using principal component analysis (eigenfaces)
 	HMM-Functions
 		-Algorithms for running analysis on hidden Markov models
-	Image-Manipulation
-		-At this point, only has one method: anistropic_diffuse
 	Image-Alignment
 		-Alignment of color channels for the Prokudin-Gorskii photo collection
 			Includes a brute force algorithm as well as a pyramid alignment algorithm
@@ -28,4 +26,4 @@ List of projects:
 			url: http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1467310
 
 TJ Keemon <keemon@bc.edu>
-Last Updated: 10/29/2010
+Last Updated: 11/12/2010
